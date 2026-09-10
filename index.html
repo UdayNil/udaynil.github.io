@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Uday Roy | RPA & Automation Developer | Microsoft Power Platform Specialist</title>
+  <meta name="description" content="Portfolio of Uday Roy - Automation Developer with 15+ years of professional experience in enterprise RPA, UiPath, Microsoft Power Platform, Power BI, Excel VBA, and AI/RAG tooling.">
+  <meta name="keywords" content="Uday Roy, RPA Developer, UiPath Certified, Microsoft Power Platform, Power Apps, Power BI, Excel VBA, Claude Code, AI RAG, Kolkata">
+  <meta name="author" content="Uday Roy">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/img/uday-roy.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- FontAwesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Stylesheet (Mikon-inspired) -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Ambient background glow blobs -->
+  <div class="bg-ambient-blob blob-1"></div>
+  <div class="bg-ambient-blob blob-2"></div>
+  <div class="bg-ambient-blob blob-3"></div>
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       ========================================================================= -->
+  <nav class="navbar navbar-expand-lg header-nav">
+    <div class="container">
+      <a class="navbar-brand-custom" href="#home">
+        <span class="brand-dot"></span>
+        <span>UDAY<span class="highlight">.ROY</span></span>
+      </a>
+
+      <!-- Actions for Mobile & Toggle -->
+      <div class="d-flex align-items-center gap-2 d-lg-none">
+        <button class="theme-toggle-btn" id="theme-toggle-mobile" aria-label="Toggle theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+
+      <!-- Nav Links -->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link-custom active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link-custom" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link-custom" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link-custom" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link-custom" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link-custom" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link-custom" href="#certifications">Certifications</a></li>
+          <li class="nav-item"><a class="nav-link-custom" href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions d-none d-lg-flex">
+          <button class="theme-toggle-btn" id="theme-toggle" title="Switch Theme">
+            <i class="fas fa-moon" id="theme-icon"></i>
+          </button>
+          <a href="#contact" class="btn-primary-custom nav-action-link">
+            <span>Hire Me</span>
+            <i class="fas fa-paper-plane"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =========================================================================
+       HERO SECTION
+       ========================================================================= -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Hero Text Column -->
+        <div class="col-lg-7">
+          <div class="hero-status-pill">
+            <span class="status-indicator"></span>
+            <span>Available for Enterprise Consulting & RPA Solutions</span>
+          </div>
+
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-title">UDAY <span class="highlight">ROY</span></h1>
+
+          <div class="hero-typed-wrapper">
+            <span>I'm a&nbsp;</span>
+            <span class="typed-text" id="typed-text"></span>
+          </div>
+
+          <p class="hero-bio">
+            Enterprise Automation Developer with <strong>15+ years of professional experience</strong> spanning operations, reporting, and technical leadership. UiPath Certified specialist delivering scalable bots, Microsoft Power Platform solutions, dynamic Power BI dashboards, and cutting-edge AI/RAG tooling that streamline business processes.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn-primary-custom">
+              <span>Explore Projects</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="javascript:window.print()" class="btn-outline-custom">
+              <i class="fas fa-download"></i>
+              <span>Download CV</span>
+            </a>
+            <a href="#contact" class="btn-outline-custom">
+              <i class="fas fa-envelope"></i>
+              <span>Get in Touch</span>
+            </a>
+          </div>
+
+          <div class="hero-contact-strip">
+            <div class="contact-pill-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Kolkata, India</span>
+            </div>
+            <div class="contact-pill-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:uroy67640@gmail.com">uroy67640@gmail.com</a>
+            </div>
+            <div class="contact-pill-item">
+              <i class="fas fa-phone-alt"></i>
+              <a href="tel:+919123796401">+91 9123796401</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Portrait Column (Mikon Styled) -->
+        <div class="col-lg-5">
+          <div class="hero-image-wrapper">
+            <div class="portrait-backdrop-glow"></div>
+
+            <div class="portrait-frame">
+              <img src="./assets/img/uday-roy.jpg" alt="Uday Roy - RPA & Automation Developer" class="portrait-img">
+            </div>
+
+            <!-- Floating Badge 1: Experience -->
+            <div class="floating-badge badge-left">
+              <div class="badge-icon-box icon-exp">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <div class="badge-content">
+                <h4>15+ Years</h4>
+                <p>Enterprise Experience</p>
+              </div>
+            </div>
+
+            <!-- Floating Badge 2: UiPath Certified -->
+            <div class="floating-badge badge-right">
+              <div class="badge-icon-box icon-uipath">
+                <i class="fas fa-robot"></i>
+              </div>
+              <div class="badge-content">
+                <h4>UiPath Certified</h4>
+                <p>RPA Developer</p>
+              </div>
+            </div>
+
+            <!-- Floating Badge 3: Power Platform -->
+            <div class="floating-badge badge-bottom">
+              <div class="badge-icon-box icon-powerapps">
+                <i class="fas fa-layer-group"></i>
+              </div>
+              <div class="badge-content">
+                <h4>Power Platform</h4>
+                <p>&amp; Power BI Delivery</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Key Metrics Counter Bar -->
+      <div class="counter-bar-wrapper">
+        <div class="row g-4">
+          <div class="col-6 col-lg-3">
+            <div class="counter-item">
+              <div class="counter-number" data-target="15" data-suffix="+">15+</div>
+              <div class="counter-label">Years of Experience</div>
+              <div class="counter-divider d-none d-lg-block"></div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="counter-item">
+              <div class="counter-number" data-target="50" data-suffix="+">50+</div>
+              <div class="counter-label">Automated Workflows &amp; Bots</div>
+              <div class="counter-divider d-none d-lg-block"></div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="counter-item">
+              <div class="counter-number" data-target="100" data-suffix="+">100+</div>
+              <div class="counter-label">BI Dashboards &amp; Macros</div>
+              <div class="counter-divider d-none d-lg-block"></div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="counter-item">
+              <div class="counter-number" data-target="5" data-suffix="">5</div>
+              <div class="counter-label">Professional Certifications</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       ABOUT ME SECTION
+       ========================================================================= -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-subtitle">
+          <i class="fas fa-user-circle"></i>
+          <span>About Me</span>
+        </div>
+        <h2 class="section-title">Architecting Scalable Automation Solutions</h2>
+        <p class="section-desc">
+          Bridging operations, data intelligence, and enterprise technology with 15+ years of proven delivery excellence.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Main Bio & Details Card -->
+        <div class="col-lg-7">
+          <div class="about-card-wrapper h-100">
+            <h3 class="about-lead">
+              UiPath Certified RPA Developer &amp; Microsoft Power Platform Delivery Leader
+            </h3>
+            <p class="about-body">
+              With a career foundation built on complex financial operations, reconciliation analytics, and team leadership, I specialize in translating critical business friction points into high-velocity, maintainable automations.
+            </p>
+            <p class="about-body">
+              Currently serving as <strong>Senior Tech Consultant at Concentrix</strong>, I steer technical architecture and Proof-of-Concept initiatives across enterprise test automation, build custom Canvas Power Apps, orchestrate unattended UiPath bots with SAP integrations, and integrate AI/RAG tooling using Claude Code and Co-Pilot to accelerate enterprise digital transformation.
+            </p>
+
+            <div class="info-grid">
+              <div class="info-grid-item">
+                <span class="info-label">Name</span>
+                <span class="info-value">Uday Roy</span>
+              </div>
+              <div class="info-grid-item">
+                <span class="info-label">Location</span>
+                <span class="info-value">Kolkata, West Bengal, India</span>
+              </div>
+              <div class="info-grid-item">
+                <span class="info-label">Email</span>
+                <span class="info-value"><a href="mailto:uroy67640@gmail.com" class="text-primary">uroy67640@gmail.com</a></span>
+              </div>
+              <div class="info-grid-item">
+                <span class="info-label">Phone</span>
+                <span class="info-value"><a href="tel:+919123796401" class="text-primary">+91 9123796401</a></span>
+              </div>
+              <div class="info-grid-item">
+                <span class="info-label">Experience</span>
+                <span class="info-value">15+ Years (Enterprise Level)</span>
+              </div>
+              <div class="info-grid-item">
+                <span class="info-label">Education</span>
+                <span class="info-value">B. Com (Calcutta Univ) &amp; Dip. in Finance</span>
+              </div>
+            </div>
+
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#experience" class="btn-primary-custom">
+                <span>View Full Career Timeline</span>
+                <i class="fas fa-history"></i>
+              </a>
+              <a href="#contact" class="btn-outline-custom">
+                <i class="fas fa-comments"></i>
+                <span>Discuss Collaboration</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 Pillars of Value -->
+        <div class="col-lg-5">
+          <div class="row g-3 h-100">
+            <div class="col-sm-6">
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <i class="fas fa-cogs"></i>
+                </div>
+                <h4 class="pillar-title">RPA Architecture</h4>
+                <p class="pillar-desc">Designing resilient, unattended REFramework bots with automated error recovery, audit trails, and zero downtime.</p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <i class="fas fa-shapes"></i>
+                </div>
+                <h4 class="pillar-title">Power Platform</h4>
+                <p class="pillar-desc">Custom Canvas apps, Power Automate multi-tier approval flows, and secure Dataverse schemas that replace manual paper/email trails.</p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <h4 class="pillar-title">BI &amp; Analytics</h4>
+                <p class="pillar-desc">End-to-end data modeling, DAX measures, and interactive Power BI executive reporting to turn operational chaos into clarity.</p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="pillar-card">
+                <div class="pillar-icon-box">
+                  <i class="fas fa-brain"></i>
+                </div>
+                <h4 class="pillar-title">AI &amp; RAG Systems</h4>
+                <p class="pillar-desc">Integrating modern AI coding assistants (Claude Code) and Retrieval-Augmented Generation to supercharge team productivity.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SERVICES / SPECIALIZATIONS SECTION
+       ========================================================================= -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-subtitle">
+          <i class="fas fa-laptop-code"></i>
+          <span>What I Do</span>
+        </div>
+        <h2 class="section-title">Enterprise Automation &amp; Development Services</h2>
+        <p class="section-desc">
+          Delivering production-grade technology solutions that reduce cycle times, eliminate manual errors, and scale operational bandwidth.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Service 1: RPA -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-header">
+              <div class="service-icon rpa">
+                <i class="fas fa-robot"></i>
+              </div>
+              <span class="service-number">01</span>
+            </div>
+            <h3 class="service-title">Robotic Process Automation</h3>
+            <p class="service-desc">
+              End-to-end bot lifecycle from process discovery to Orchestrator deployment. Specialized in UiPath, REFramework, SAP GUI scripting, and resilient web data scraping.
+            </p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> UiPath Studio &amp; Orchestrator</li>
+              <li><i class="fas fa-check"></i> SAP ERP Automated Data Feeds</li>
+              <li><i class="fas fa-check"></i> 24/7 Unattended Bot Infrastructure</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Service 2: Power Platform -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-header">
+              <div class="service-icon powerplatform">
+                <i class="fas fa-layer-group"></i>
+              </div>
+              <span class="service-number">02</span>
+            </div>
+            <h3 class="service-title">Microsoft Power Platform</h3>
+            <p class="service-desc">
+              Building custom Canvas Power Apps to digitize departmental workflows, paired with Power Automate cloud &amp; desktop flows for multi-level approvals and notifications.
+            </p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Custom Canvas Power Apps</li>
+              <li><i class="fas fa-check"></i> Automated Multi-Stage Approval Flows</li>
+              <li><i class="fas fa-check"></i> Dataverse &amp; SharePoint Integration</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Service 3: Power BI -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-header">
+              <div class="service-icon bi">
+                <i class="fas fa-chart-pie"></i>
+              </div>
+              <span class="service-number">03</span>
+            </div>
+            <h3 class="service-title">Power BI &amp; Analytics</h3>
+            <p class="service-desc">
+              Designing interactive executive dashboards and automated reporting pipelines. Advanced DAX expressions, Power Query transformations, and dynamic KPI tracking.
+            </p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Interactive Power BI Dashboards</li>
+              <li><i class="fas fa-check"></i> Advanced Power Query ETL Pipelines</li>
+              <li><i class="fas fa-check"></i> Automated Daily/Weekly Distribution</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Service 4: Excel & VBA -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-header">
+              <div class="service-icon vba">
+                <i class="fas fa-file-excel"></i>
+              </div>
+              <span class="service-number">04</span>
+            </div>
+            <h3 class="service-title">Excel &amp; VBA Modernization</h3>
+            <p class="service-desc">
+              Engineering high-throughput macro solutions for multi-currency financial reconciliations, custodian data interfaces, automated Outlook distribution, and legacy data scraping.
+            </p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Complex Multi-Currency Reconciliations</li>
+              <li><i class="fas fa-check"></i> Automated Outlook Mail &amp; Exception Routing</li>
+              <li><i class="fas fa-check"></i> Mainframe &amp; Citrix System Interfaces</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Service 5: AI & RAG -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-header">
+              <div class="service-icon ai">
+                <i class="fas fa-brain"></i>
+              </div>
+              <span class="service-number">05</span>
+            </div>
+            <h3 class="service-title">AI &amp; RAG Systems</h3>
+            <p class="service-desc">
+              Deploying in-house Retrieval-Augmented Generation systems and AI agents. Leveraging Claude Code, Python, and vector retrieval to synthesize knowledge from enterprise SOPs.
+            </p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> Custom Enterprise RAG Architectures</li>
+              <li><i class="fas fa-check"></i> Claude Code &amp; Co-Pilot AI Workflows</li>
+              <li><i class="fas fa-check"></i> Python-based Custom Automation Tools</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Service 6: Architecture & Leadership -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card">
+            <div class="service-header">
+              <div class="service-icon consulting">
+                <i class="fas fa-users-cog"></i>
+              </div>
+              <span class="service-number">06</span>
+            </div>
+            <h3 class="service-title">Process Consulting &amp; Leadership</h3>
+            <p class="service-desc">
+              Evaluating automation feasibility, leading Proof-of-Concepts (PoCs), managing Agile sprint planning, mentoring offshore developer teams, and authoring standard operating procedures.
+            </p>
+            <ul class="service-features">
+              <li><i class="fas fa-check"></i> PoC Feasibility &amp; ROI Mapping</li>
+              <li><i class="fas fa-check"></i> Agile / Scrum Sprint Execution</li>
+              <li><i class="fas fa-check"></i> Cross-Timezone Team Mentorship</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       PROFESSIONAL EXPERIENCE TIMELINE (RESUME SECTION)
+       ========================================================================= -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-subtitle">
+          <i class="fas fa-briefcase"></i>
+          <span>Career Journey</span>
+        </div>
+        <h2 class="section-title">Professional Experience</h2>
+        <p class="section-desc">
+          Over 15 years of progressive leadership and technical contributions in global technology and consulting organizations.
+        </p>
+      </div>
+
+      <div class="timeline-container">
+        <!-- 1. Concentrix -->
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="timeline-marker-inner"></div>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-top-bar">
+              <div class="company-badge">
+                <div class="company-icon">
+                  <i class="fas fa-building"></i>
+                </div>
+                <h3 class="company-name">Concentrix</h3>
+              </div>
+              <span class="duration-pill">2023 – Present</span>
+            </div>
+            <h4 class="role-title">Senior Tech Consultant (RPA Development)</h4>
+            <ul class="timeline-responsibilities">
+              <li>Design, develop, and deploy end-to-end RPA and Power Platform automations, maintaining delivery pipelines tailored to each project's architecture.</li>
+              <li>Define technical architecture and set strategic direction for enterprise-wide test automation; lead Proof-of-Concept initiatives to validate feasibility and scalability before rollout.</li>
+              <li>Manage sprint planning and development priorities; lead and mentor onsite and offshore developers to deliver milestones on time across global time zones.</li>
+              <li>Build interactive Power BI dashboards and automate reporting workflows with Excel VBA and Power Query.</li>
+              <li>Develop custom Canvas Power Apps to digitize departmental processes and improve user productivity.</li>
+              <li>Analyse client feedback to identify automation-coverage gaps and recommend architecture improvements; maintain standardized process documentation for knowledge retention.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 2. Capgemini -->
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="timeline-marker-inner"></div>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-top-bar">
+              <div class="company-badge">
+                <div class="company-icon">
+                  <i class="fas fa-code-branch"></i>
+                </div>
+                <h3 class="company-name">Capgemini</h3>
+              </div>
+              <span class="duration-pill">2020 – 2023</span>
+            </div>
+            <h4 class="role-title">Team Lead — RPA Development</h4>
+            <ul class="timeline-responsibilities">
+              <li>Acted as subject-matter expert for RPA development, building and amending Power Automate process flows through testing and go-live readiness.</li>
+              <li>Delivered iterative automation across business processes, optimizing workflows with Power Automate and Excel VBA.</li>
+              <li>Developed VBA programs and automated reporting over complex datasets using advanced Excel (formulas, tables, charts).</li>
+              <li>Led the technical team through comprehensive testing and release readiness to ensure stable production deployments.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 3. Genpact -->
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="timeline-marker-inner"></div>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-top-bar">
+              <div class="company-badge">
+                <div class="company-icon">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <h3 class="company-name">Genpact</h3>
+              </div>
+              <span class="duration-pill">2011 – 2020</span>
+            </div>
+            <h4 class="role-title">Process Automation &amp; Operations Analyst</h4>
+            <ul class="timeline-responsibilities">
+              <li>Identified and mapped manual workflows across custodian and account reconciliations to evaluate automation feasibility and logic mapping.</li>
+              <li>Engineered custom Excel VBA macros and data-manipulation scripts to automate monthly data extraction, validation, and multi-currency reconciliations.</li>
+              <li>Developed automated data interfaces via VBA to interact with legacy systems, Mainframes, and SAP modules, drastically reducing manual data transfers.</li>
+              <li>Constructed dynamic, macro-driven dashboards utilizing advanced formulas and Pivot Tables to publish daily portfolio valuation and risk tolerance reports.</li>
+              <li>Built integrated VBA Outlook automation scripts to handle exceptions and automatically route high-priority reconciliation logs.</li>
+              <li>Documented step-by-step business rules and data models to convert manual workflows into scalable, repeatable standard operating procedures (SOPs) ready for modern RPA migration.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 4. Bajaj Allianz -->
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="timeline-marker-inner"></div>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-top-bar">
+              <div class="company-badge">
+                <div class="company-icon">
+                  <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3 class="company-name">Bajaj Allianz</h3>
+              </div>
+              <span class="duration-pill">2010 – 2011</span>
+            </div>
+            <h4 class="role-title">Workforce Optimization Analyst</h4>
+            <ul class="timeline-responsibilities">
+              <li>Conducted process discovery and bottleneck analysis on high-volume Data Entry/QC workflows, programming Excel VBA tools to replace manual tracking with one-click automated productivity reporting scripts.</li>
+              <li>Created macro-driven data verification logic across distinct operational queues while mapping user UI paths within Citrix-hosted applications to eliminate system errors and streamline frontline processing.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 5. Ureka Technologies -->
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <div class="timeline-marker-inner"></div>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-top-bar">
+              <div class="company-badge">
+                <div class="company-icon">
+                  <i class="fas fa-chalkboard-teacher"></i>
+                </div>
+                <h3 class="company-name">Ureka Technologies</h3>
+              </div>
+              <span class="duration-pill">2007 – 2010</span>
+            </div>
+            <h4 class="role-title">Soft Skills &amp; Technology Trainer</h4>
+            <ul class="timeline-responsibilities">
+              <li>Delivered soft-skills and Microsoft Office training (Word, Excel, PowerPoint) to staff, strengthening workplace productivity and communication standards.</li>
+              <li>Designed interactive practical curriculum and hands-on case studies for operational readiness.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       CORE SKILLS SECTION
+       ========================================================================= -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-subtitle">
+          <i class="fas fa-code"></i>
+          <span>Technical Stack</span>
+        </div>
+        <h2 class="section-title">Core Skills &amp; Competencies</h2>
+        <p class="section-desc">
+          A balanced blend of robotic automation, cloud business applications, analytics, and emerging artificial intelligence tools.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Category 1: RPA & Automation -->
+        <div class="col-lg-6">
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i class="fas fa-robot"></i>
+              </div>
+              <h3 class="skill-cat-title">RPA &amp; Process Automation</h3>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">UiPath (Certified RPA Developer)</span>
+                <span class="skill-percent">95%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Power Automate (Cloud &amp; Desktop Flows)</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Excel VBA &amp; Advanced Macro Automation</span>
+                <span class="skill-percent">95%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-tags-group">
+              <span class="skill-pill-tag">REFramework</span>
+              <span class="skill-pill-tag">Orchestrator</span>
+              <span class="skill-pill-tag">SAP GUI Automation</span>
+              <span class="skill-pill-tag">Web Scraping</span>
+              <span class="skill-pill-tag">Exception Handling</span>
+              <span class="skill-pill-tag">Queue Management</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 2: Power Platform & BI -->
+        <div class="col-lg-6">
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i class="fas fa-layer-group"></i>
+              </div>
+              <h3 class="skill-cat-title">Power Platform &amp; Business Intelligence</h3>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Power Apps (Canvas Applications)</span>
+                <span class="skill-percent">88%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Power BI (Data Modeling &amp; DAX)</span>
+                <span class="skill-percent">92%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 92%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Power Query &amp; ETL Transformations</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-tags-group">
+              <span class="skill-pill-tag">Dataverse</span>
+              <span class="skill-pill-tag">SharePoint Lists</span>
+              <span class="skill-pill-tag">DAX Measures</span>
+              <span class="skill-pill-tag">Star Schema</span>
+              <span class="skill-pill-tag">Automated Refresh</span>
+              <span class="skill-pill-tag">Executive KPIs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 3: AI & Programming -->
+        <div class="col-lg-6">
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i class="fas fa-brain"></i>
+              </div>
+              <h3 class="skill-cat-title">AI &amp; Assisted Development</h3>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Claude Code &amp; AI Coding Agents</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Retrieval-Augmented Generation (RAG)</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Python (Scripting &amp; Data Manipulation)</span>
+                <span class="skill-percent">82%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 82%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-tags-group">
+              <span class="skill-pill-tag">GitHub Co-Pilot</span>
+              <span class="skill-pill-tag">Vector Embeddings</span>
+              <span class="skill-pill-tag">Prompt Engineering</span>
+              <span class="skill-pill-tag">SQL</span>
+              <span class="skill-pill-tag">Pandas</span>
+              <span class="skill-pill-tag">API Integration</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 4: Leadership & Methodology -->
+        <div class="col-lg-6">
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i class="fas fa-tasks"></i>
+              </div>
+              <h3 class="skill-cat-title">Methodology &amp; Architecture Leadership</h3>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Agile Scrum (Sprint &amp; Backlog Management)</span>
+                <span class="skill-percent">92%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 92%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Process Mapping, SOPs &amp; Architecture</span>
+                <span class="skill-percent">95%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Six Sigma Quality &amp; Defect Reduction</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-tags-group">
+              <span class="skill-pill-tag">Proof-of-Concept (PoC)</span>
+              <span class="skill-pill-tag">Onsite/Offshore Mentoring</span>
+              <span class="skill-pill-tag">Business Requirements Mapping</span>
+              <span class="skill-pill-tag">Release Management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FEATURED PROJECTS SHOWCASE
+       ========================================================================= -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-subtitle">
+          <i class="fas fa-project-diagram"></i>
+          <span>Portfolio Showcase</span>
+        </div>
+        <h2 class="section-title">Key Projects &amp; Solutions</h2>
+        <p class="section-desc">
+          Featured enterprise automations, Canvas apps, financial engines, and AI systems built for measurable client outcomes.
+        </p>
+      </div>
+
+      <!-- Project Filter Pills -->
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="powerplatform">Power Platform</button>
+        <button class="filter-btn" data-filter="rpa">RPA &amp; Bots</button>
+        <button class="filter-btn" data-filter="vba">Excel &amp; VBA</button>
+        <button class="filter-btn" data-filter="ai-python">AI &amp; Python</button>
+      </div>
+
+      <div class="row g-4" id="projectsGrid">
+        <!-- Project 1: Power Apps -->
+        <div class="col-md-6 col-lg-4 project-col" data-category="powerplatform">
+          <div class="project-card">
+            <div class="project-media-wrapper">
+              <img src="./assets/img/projects/project-powerapps.svg" alt="Power Apps Leave Planner" class="project-media-img">
+              <span class="project-category-badge">Power Platform</span>
+              <div class="project-overlay">
+                <button class="btn-primary-custom btn-view-project" data-project-id="powerapps-leave-inventory">
+                  <span>View Details</span>
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Power Apps — Leave Planner &amp; Inventory Management</h3>
+              <p class="project-desc">
+                Built Canvas-based applications that streamlined operational workflows, multi-location stock tracking, and employee request approvals.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Power Apps</span>
+                <span class="tech-tag">Power Automate</span>
+                <span class="tech-tag">Dataverse</span>
+                <span class="tech-tag">Power BI</span>
+              </div>
+              <div class="project-footer-action">
+                <button class="btn-view-project" data-project-id="powerapps-leave-inventory">
+                  <span>Deep Dive Case Study</span>
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: UiPath SAP -->
+        <div class="col-md-6 col-lg-4 project-col" data-category="rpa">
+          <div class="project-card">
+            <div class="project-media-wrapper">
+              <img src="./assets/img/projects/project-uipath-sap.svg" alt="UiPath SAP Integration Bot" class="project-media-img">
+              <span class="project-category-badge">RPA &amp; Bots</span>
+              <div class="project-overlay">
+                <button class="btn-primary-custom btn-view-project" data-project-id="uipath-sap-integration">
+                  <span>View Details</span>
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">UiPath–SAP Enterprise Integration Bot</h3>
+              <p class="project-desc">
+                Developed unattended bots that extract transaction data from diverse external web pages and feed it into relevant SAP ERP modules.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">UiPath</span>
+                <span class="tech-tag">REFramework</span>
+                <span class="tech-tag">SAP GUI</span>
+                <span class="tech-tag">Orchestrator</span>
+              </div>
+              <div class="project-footer-action">
+                <button class="btn-view-project" data-project-id="uipath-sap-integration">
+                  <span>Deep Dive Case Study</span>
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Excel VBA -->
+        <div class="col-md-6 col-lg-4 project-col" data-category="vba">
+          <div class="project-card">
+            <div class="project-media-wrapper">
+              <img src="./assets/img/projects/project-vba.svg" alt="Excel VBA Automation" class="project-media-img">
+              <span class="project-category-badge">Excel &amp; VBA</span>
+              <div class="project-overlay">
+                <button class="btn-primary-custom btn-view-project" data-project-id="excel-vba-reconciliation">
+                  <span>View Details</span>
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Excel VBA Enterprise Automation Suite</h3>
+              <p class="project-desc">
+                Engineered macros to automate email allocation, production analysis, and multi-currency reconciliations, reducing manual effort by 92%.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Advanced VBA</span>
+                <span class="tech-tag">Power Query</span>
+                <span class="tech-tag">Outlook</span>
+                <span class="tech-tag">Mainframe</span>
+              </div>
+              <div class="project-footer-action">
+                <button class="btn-view-project" data-project-id="excel-vba-reconciliation">
+                  <span>Deep Dive Case Study</span>
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Python Quizzer -->
+        <div class="col-md-6 col-lg-4 project-col" data-category="ai-python">
+          <div class="project-card">
+            <div class="project-media-wrapper">
+              <img src="./assets/img/projects/project-quizzer.svg" alt="Python Quizzer Application" class="project-media-img">
+              <span class="project-category-badge">Python App</span>
+              <div class="project-overlay">
+                <button class="btn-primary-custom btn-view-project" data-project-id="python-quizzer-tool">
+                  <span>View Details</span>
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Python Customizable Quizzer Application</h3>
+              <p class="project-desc">
+                Built an adaptive assessment tool in Python adaptable to specific corporate client requirements and evolving business training curricula.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python 3</span>
+                <span class="tech-tag">Tkinter GUI</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">SQLite</span>
+              </div>
+              <div class="project-footer-action">
+                <button class="btn-view-project" data-project-id="python-quizzer-tool">
+                  <span>Deep Dive Case Study</span>
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: AI / RAG Systems -->
+        <div class="col-md-6 col-lg-4 project-col" data-category="ai-python">
+          <div class="project-card">
+            <div class="project-media-wrapper">
+              <img src="./assets/img/projects/project-ai-rag.svg" alt="Enterprise AI RAG Systems" class="project-media-img">
+              <span class="project-category-badge">AI &amp; RAG</span>
+              <div class="project-overlay">
+                <button class="btn-primary-custom btn-view-project" data-project-id="enterprise-rag-system">
+                  <span>View Details</span>
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Enterprise AI / RAG Systems</h3>
+              <p class="project-desc">
+                Architected in-house Retrieval-Augmented Generation systems; leveraged Claude Code to accelerate prototyping and iteration across client builds.
+              </p>
+              <div class="project-tech-tags">
+                <span class="tech-tag">RAG Systems</span>
+                <span class="tech-tag">Claude Code</span>
+                <span class="tech-tag">Co-Pilot AI</span>
+                <span class="tech-tag">Python</span>
+              </div>
+              <div class="project-footer-action">
+                <button class="btn-view-project" data-project-id="enterprise-rag-system">
+                  <span>Deep Dive Case Study</span>
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       CERTIFICATIONS & EDUCATION SECTION
+       ========================================================================= -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-subtitle">
+          <i class="fas fa-certificate"></i>
+          <span>Credentials &amp; Academics</span>
+        </div>
+        <h2 class="section-title">Certifications &amp; Education</h2>
+        <p class="section-desc">
+          Professional industry credentials validating technical excellence and academic foundations.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Column 1: Certifications -->
+        <div class="col-lg-6">
+          <h3 class="mb-4 d-flex align-items-center gap-2">
+            <i class="fas fa-award text-primary"></i>
+            <span>Professional Certifications</span>
+          </h3>
+
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <div>
+              <h4 class="cert-title">UiPath Certified RPA Developer</h4>
+              <p class="cert-issuer">UiPath Academy • Advanced Robotic Enterprise Architecture</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-sync-alt"></i>
+            </div>
+            <div>
+              <h4 class="cert-title">Agile Scrum Certification (Software Development)</h4>
+              <p class="cert-issuer">Agile Delivery &amp; Sprint Planning Standards</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-medal"></i>
+            </div>
+            <div>
+              <h4 class="cert-title">Six Sigma Yellow Belt</h4>
+              <p class="cert-issuer">Process Optimization &amp; Defect Elimination</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fab fa-python"></i>
+            </div>
+            <div>
+              <h4 class="cert-title">Python for Everybody</h4>
+              <p class="cert-issuer">University of Michigan • Data Structures &amp; Web Scrapers</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <div>
+              <h4 class="cert-title">SQL Certification</h4>
+              <p class="cert-issuer">Relational Database Design &amp; Complex Query Execution</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2: Education -->
+        <div class="col-lg-6">
+          <h3 class="mb-4 d-flex align-items-center gap-2">
+            <i class="fas fa-graduation-cap text-primary"></i>
+            <span>Academic Education</span>
+          </h3>
+
+          <div class="edu-card">
+            <div class="edu-icon">
+              <i class="fas fa-university"></i>
+            </div>
+            <div>
+              <h4 class="edu-degree">Bachelor of Commerce (B. Com)</h4>
+              <p class="edu-institution">University of Calcutta, Kolkata</p>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-icon">
+              <i class="fas fa-calculator"></i>
+            </div>
+            <div>
+              <h4 class="edu-degree">Diploma in Finance</h4>
+              <p class="edu-institution">ICFAI, Hyderabad</p>
+            </div>
+          </div>
+
+          <div class="edu-card">
+            <div class="edu-icon">
+              <i class="fas fa-school"></i>
+            </div>
+            <div>
+              <h4 class="edu-degree">Higher Secondary (Class 12) &amp; Secondary (Class 10)</h4>
+              <p class="edu-institution">West Bengal Board of Secondary &amp; Higher Secondary Education</p>
+            </div>
+          </div>
+
+          <!-- Highlight Box for Academic & Business Synergy -->
+          <div class="about-card-wrapper mt-3">
+            <h4 class="pillar-title"><i class="fas fa-lightbulb text-warning me-2"></i> Business &amp; Tech Synergy</h4>
+            <p class="pillar-desc mb-0">
+              A foundational background in Commerce and Financial Accounting coupled with 15+ years in high-volume enterprise tech enables me to understand balance sheets, general ledgers, and operational workflows natively—drastically shortening the gap between business requirements and technical bot delivery.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       CONTACT & CONNECT SECTION
+       ========================================================================= -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-subtitle">
+          <i class="fas fa-envelope-open-text"></i>
+          <span>Get In Touch</span>
+        </div>
+        <h2 class="section-title">Let's Connect &amp; Build Solutions</h2>
+        <p class="section-desc">
+          Interested in discussing enterprise RPA architecture, Power Platform apps, or consulting opportunities? Reach out directly.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Contact Information Cards -->
+        <div class="col-lg-5">
+          <div class="contact-info-card">
+            <div class="contact-info-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div>
+              <div class="contact-info-title">Location</div>
+              <div class="contact-info-value">Kolkata, West Bengal, India</div>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-info-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div>
+              <div class="contact-info-title">Direct Email</div>
+              <div class="contact-info-value">
+                <a href="mailto:uroy67640@gmail.com" class="text-primary">uroy67640@gmail.com</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-info-card">
+            <div class="contact-info-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div>
+              <div class="contact-info-title">Phone &amp; WhatsApp</div>
+              <div class="contact-info-value">
+                <a href="tel:+919123796401" class="text-primary">+91 9123796401</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Action Buttons -->
+          <div class="d-flex flex-wrap gap-2 mt-4">
+            <a href="https://wa.me/919123796401" target="_blank" rel="noopener noreferrer" class="btn-outline-custom">
+              <i class="fab fa-whatsapp text-success"></i>
+              <span>WhatsApp Chat</span>
+            </a>
+            <a href="mailto:uroy67640@gmail.com" class="btn-outline-custom">
+              <i class="fas fa-paper-plane"></i>
+              <span>Send Direct Email</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Interactive Contact Form -->
+        <div class="col-lg-7">
+          <div class="contact-form-card">
+            <h3 class="mb-4">Send a Message</h3>
+            
+            <div id="formAlert" class="form-alert"></div>
+
+            <form id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6 form-group-custom">
+                  <label for="contactName" class="form-label-custom">Your Name *</label>
+                  <input type="text" class="form-control-custom" id="contactName" placeholder="e.g. Sarah Jenkins" required>
+                </div>
+
+                <div class="col-md-6 form-group-custom">
+                  <label for="contactEmail" class="form-label-custom">Your Email *</label>
+                  <input type="email" class="form-control-custom" id="contactEmail" placeholder="e.g. sarah@enterprise.com" required>
+                </div>
+
+                <div class="col-12 form-group-custom">
+                  <label for="contactSubject" class="form-label-custom">Subject *</label>
+                  <input type="text" class="form-control-custom" id="contactSubject" placeholder="e.g. Enterprise RPA / Power Platform Initiative" required>
+                </div>
+
+                <div class="col-12 form-group-custom">
+                  <label for="contactMessage" class="form-label-custom">Message *</label>
+                  <textarea class="form-control-custom" id="contactMessage" rows="5" placeholder="Describe your project, team requirements, or collaboration goals..." required></textarea>
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" class="btn-primary-custom w-100 justify-content-center py-3">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       PROJECT DETAILS MODAL (Bootstrap 5)
+       ========================================================================= -->
+  <div class="modal fade modal-custom" id="projectDetailModal" tabindex="-1" aria-labelledby="modalProjectTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div>
+            <span class="project-category-badge mb-2 d-inline-block" id="modalProjectCategory">Category</span>
+            <h3 class="modal-title h4 mb-0" id="modalProjectTitle">Project Title</h3>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="" alt="" class="modal-project-img" id="modalProjectImg">
+
+          <div class="modal-meta-bar">
+            <div class="modal-meta-item">
+              <span class="modal-meta-label">Client / Organization</span>
+              <span class="modal-meta-val" id="modalOrg">Organization</span>
+            </div>
+            <div class="modal-meta-item">
+              <span class="modal-meta-label">My Role</span>
+              <span class="modal-meta-val" id="modalRole">Role</span>
+            </div>
+            <div class="modal-meta-item">
+              <span class="modal-meta-label">Deployment Status</span>
+              <span class="modal-meta-val" id="modalStatus">Production</span>
+            </div>
+          </div>
+
+          <div class="modal-metrics-grid" id="modalMetrics"></div>
+
+          <h4 class="h5 mb-2"><i class="fas fa-exclamation-circle text-danger me-2"></i> Business Challenge</h4>
+          <p class="text-secondary mb-4" id="modalProblem"></p>
+
+          <h4 class="h5 mb-2"><i class="fas fa-check-circle text-success me-2"></i> Solution &amp; Implementation</h4>
+          <p class="text-secondary mb-4" id="modalSolution"></p>
+
+          <h4 class="h5 mb-2"><i class="fas fa-network-wired text-primary me-2"></i> Technical Architecture</h4>
+          <ul class="text-secondary mb-4 ps-3" id="modalArchitecture"></ul>
+
+          <h4 class="h5 mb-2"><i class="fas fa-star text-warning me-2"></i> Key Features &amp; Capabilities</h4>
+          <ul class="text-secondary mb-4 ps-3" id="modalFeatures"></ul>
+
+          <h4 class="h5 mb-2"><i class="fas fa-tools text-info me-2"></i> Technologies Used</h4>
+          <div class="project-tech-tags" id="modalTechStack"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <a class="footer-brand" href="#home">
+            <span>UDAY<span class="highlight">.ROY</span></span>
+          </a>
+          <p class="footer-copy mb-0">
+            &copy; 2026 Uday Roy. All Rights Reserved. RPA &amp; Automation Developer | Microsoft Power Platform Specialist.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <div class="footer-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Bootstrap 5.3 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Project Data & Main Logic -->
+  <script src="./assets/js/projects-data.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

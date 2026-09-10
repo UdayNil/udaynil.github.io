@@ -1,0 +1,20 @@
+{
+  "name": "uday-roy-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Uday Roy - RPA & Automation Developer | Microsoft Power Platform Specialist",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -l 3000",
+    "serve": "python -m http.server 3000"
+  },
+  "keywords": [
+    "portfolio",
+    "uday-roy",
+    "rpa",
+    "uipath",
+    "power-platform",
+    "power-bi"
+  ],
+  "author": "Uday Roy <uroy67640@gmail.com>",
+  "license": "MIT"
+}
